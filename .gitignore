@@ -1,0 +1,63 @@
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# macOS Spotlight search index files
+.Spotlight-V100
+.Trashes
+
+# Visual Studio Code settings and workspace files
+.vscode/
+*.code-workspace
+
+# General temporary files
+*.tmp
+*.temp
+*~
+
+# Log files
+*.log
+
+# Node modules (if using Node.js)
+node_modules/
+
+# Build output (common)
+dist/
+build/
+out/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Env files
+.env
+.env.*
+
+# Swap & backup files
+*.swp
+*.swo
+*.bak
+*.orig
+
+# Thumbnails and cache
+*.stackdump
+.cache/
+
+# User-specific files
+*.sublime-workspace
+*.sublime-project
+
+# VS Code History for undo
+.history/
+
+# Trash and unwanted files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Ignore custom application files
+# Add other patterns as needed...
