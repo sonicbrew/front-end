@@ -76,6 +76,27 @@ header{
     border: 2px;
 }
 
+/* Mobile menu */
+.hamburger{
+    width: 40px;
+    height: 40px;
+    transform: rotate(90deg);
+    display: none
+}
+.hamburger span{
+    border: 2px solid black;
+    width: 100%;
+    display: inline;
+    min-width: 10px;
+    padding: 1px;
+    background: #000;
+    margin: 2px;
+}
+
+
+
+
+
 @media(max-width: 1024px){
     header{ background:#00e8ff ;}
     header nav ul li{
@@ -90,6 +111,21 @@ header{
     header{
         padding: 20px 24px ;
     }
-    
-    }
 
+ @media (max-width: 768px){
+    .hamburger{
+        display: block;
+    }
+    .menu{
+        display:none;
+
+    }
+    .menu.show {
+        display:flex;
+    }
+      
+    }
+.new_class{
+    text-decoration:underline;
+}
+}
